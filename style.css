@@ -8,3 +8,6 @@ body{
             padding: 50px;
             display: block;
 }
+#transaction-area{
+    display: none;
+}
