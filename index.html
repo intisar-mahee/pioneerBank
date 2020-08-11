@@ -18,9 +18,19 @@
             <br>
             <input type="password" class="form-control" placeholder="Type Your Password" name="" id="">
             <br>
-            <button class="btn btn-success">Enter</button>
+            <button id="login" class="btn btn-success">Enter</button>
 
         </div>
     </div>
+
+
+
+    <script>
+        const loginBtn = document.getElementById("login");
+        loginBtn.addEventListener("click", function(){
+            const loginArea = document.getElementById("login_area")
+            loginArea.style.display = "none" ;
+        })
+    </script>
 </body>
 </html>

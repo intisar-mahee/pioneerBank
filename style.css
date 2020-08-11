@@ -4,6 +4,7 @@ body{
 .submit_area{
             margin-top: 50px;
             border-radius: 15px;
-            box-shadow: 7px 7px 40px gray;
+            box-shadow: 7px 7px 40px orange;
             padding: 50px;
+            display: block;
 }
